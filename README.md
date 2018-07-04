@@ -1,0 +1,2 @@
+# gofunc
+go useful library
