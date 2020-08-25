@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/chenguiyi/gofunc/funcs"
+	"github.com/guiychen/snippet/funcs"
 )
 
 //RandInts 生成指定区间的一系列随机数
@@ -29,4 +29,14 @@ func RandInts(start, end int, count int) []int {
 		}
 	}
 	return nums
+}
+
+var str = []rune("abcdefghijklmnopqrstuvwxyz")
+
+func RandString(length int) string {
+	b := make([]rune, length)
+	for i := range b {
+		b[i] = str[rand.Intn(len(str))]
+	}
+	return string(b)
 }
