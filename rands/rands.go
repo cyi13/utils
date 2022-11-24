@@ -4,10 +4,10 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/guiychen/snippet/funcs"
+	"uitls/funcs"
 )
 
-//RandInts 生成指定区间的一系列随机数
+// RandInts 生成指定区间的一系列随机数
 func RandInts(start, end int, count int) []int {
 	nums := []int{}
 	if end < start {

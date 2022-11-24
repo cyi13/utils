@@ -1,3 +1,3 @@
-module github.com/guiychen/snippet
+module utils
 
 go 1.14
