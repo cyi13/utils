@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"time"
 
-	"uitls/funcs"
+	"github.com/cyi13/utils/funcs"
 )
 
 // RandInts 生成指定区间的一系列随机数

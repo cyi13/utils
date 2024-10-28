@@ -1,4 +1,4 @@
-module utils
+module github.com/cyi13/utils
 
 go 1.14
 
